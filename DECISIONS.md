@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Odločitve pri razvoju skripte
 
 Ta dokument vsebuje pomembne vsebinske, pedagoške in tehnične odločitve, sprejete med razvojem univerzitetne skripte. Namen dokumenta je zagotoviti dolgoročno doslednost pri pisanju, tudi če projekt traja več let ali pri njem sodeluje več avtorjev.

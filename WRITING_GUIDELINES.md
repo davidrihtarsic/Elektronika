@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Pravila pisanja univerzitetne skripte
 
 Ta dokument določa način pisanja celotne skripte. Namenjen je zagotavljanju enotnega sloga, terminologije in načina razlage skozi celotno knjigo.
