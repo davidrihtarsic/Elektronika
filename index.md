@@ -4,18 +4,7 @@ title: Home
 nav_order: 1
 ---
 
----
-
-layout: default
-title: Elektronika
-nav_order: 1
-description: Univerzitetna skripta iz elektronike za bodoče učitelje tehnike.
-permalink: /
-------------
-
 # Elektronika
-
-## Univerzitetna skripta za bodoče učitelje tehnike
 
 Ta spletna stran vsebuje nastajajočo univerzitetno skripto iz elektronike, namenjeno predvsem študentom, ki se izobražujejo za učitelje tehnike. Gradivo je zasnovano tako, da bralca ne vodi le do poznavanja elektronskih komponent in enačb, temveč predvsem do razumevanja električnih pojavov, fizikalnih modelov in načel načrtovanja elektronskih vezij.
 
