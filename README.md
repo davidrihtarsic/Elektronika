@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Elektronika
 
 Repozitorij vsebuje izvorne Markdown datoteke univerzitetne skripte iz elektronike.
