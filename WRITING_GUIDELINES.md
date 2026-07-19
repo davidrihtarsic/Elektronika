@@ -374,3 +374,20 @@ Pri pisanju si ves čas zastavljamo vprašanje:
 odstavek popravimo ali odstranimo.
 
 Razumevanje ima vedno prednost pred količino informacij.
+
+# Kontrolni seznam poglavja
+
+Ta kontrolni seznam ni obvezna predloga za pisanje poglavij. Namenjen je kot pomoč pri preverjanju, ali je poglavje vsebinsko zaključeno in ali naravno vodi bralca od začetnega vprašanja do razumljivega odgovora.
+
+Pri pregledu poglavja preverimo, ali so smiselno vključeni:
+
+* motivacija,
+* uvodno vprašanje,
+* pojav,
+* demonstracija ali primer,
+* razmislek,
+* fizikalni model,
+* matematični model,
+* primer uporabe,
+* omejitve modela,
+* odgovor na uvodno vprašanje.
