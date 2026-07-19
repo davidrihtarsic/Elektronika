@@ -771,9 +771,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
+		(property "Value" "S"
 			(at 118.11 80.01 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -988,10 +987,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "21c14e80-f8ce-418c-a576-a90c9bae8ecf")
+			(uuid "21c14e80-f8ce-418c-a576-a90c9bae8ed0")
 		)
 		(pin "1"
-			(uuid "926a5129-3c07-4a8b-bea6-729c63d48e36")
+			(uuid "926a5129-3c07-4a8b-bea6-729c63d48e37")
 		)
 		(instances
 			(project "Elektronika"
@@ -1071,10 +1070,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "21c14e80-f8ce-418c-a576-a90c9bae8ecf")
+			(uuid "21c14e80-f8ce-418c-a576-a90c9bae8ed1")
 		)
 		(pin "1"
-			(uuid "926a5129-3c07-4a8b-bea6-729c63d48e36")
+			(uuid "926a5129-3c07-4a8b-bea6-729c63d48e38")
 		)
 		(instances
 			(project "Elektronika"
