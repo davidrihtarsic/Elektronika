@@ -143,3 +143,13 @@ Podpoglavja uporabljajo obliko:
 Vsaka pomembna sprememba koncepta, organizacije ali načina pisanja se najprej zapiše v ta dokument.
 
 Ta dokument predstavlja referenčno zbirko odločitev, ki zagotavlja dolgoročno enotnost celotne skripte.
+
+---
+
+## 2026-07-19 — Zbirka napačnih predstav in kognitivnih konfliktov
+
+V `notes/misconceptions.md` se vodi interna avtorska zbirka pogostih napačnih predstav s področja elektronike. Zbirka se uporablja pri načrtovanju vprašanj, demonstracij, meritev in razlag.
+
+Napačnih predstav v skripti praviloma ne naštevamo neposredno. Namesto tega jih pretvorimo v kognitivni konflikt, pri katerem bralec najprej oblikuje napoved, nato pa z demonstracijo, meritvijo ali analizo odkrije omejitve svojega začetnega modela.
+
+Ta pristop je povezan z implicitno uporabo Kolbovega učnega cikla: konkretna izkušnja, refleksija, konceptualizacija in uporaba.

@@ -288,6 +288,10 @@ notes/demonstrations.md
 
 Ideje za demonstracije.
 
+notes/misconceptions.md
+
+Zbirka pogostih napačnih predstav in izhodišč za načrtovanje kognitivnih konfliktov.
+
 notes/ideas.md
 
 Sproti nastajajoče ideje.
