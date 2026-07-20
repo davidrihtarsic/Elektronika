@@ -21,9 +21,7 @@ Cilj skripte ni prenos informacij, temveč razvoj razumevanja.
 # Organizacija podpoglavja
 
 Vsako podpoglavje odgovarja na eno pomembno strokovno vprašanje.
-
 To vprašanje praviloma ni zapisano v naslovu.
-
 Naslov ostane strokoven.
 
 Primer:
