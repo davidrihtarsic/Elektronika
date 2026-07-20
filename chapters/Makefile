@@ -18,9 +18,9 @@ TITLE="Elektronika za študente Pedagoške fakultete"
 
 book:
 	@echo "Compailing all chapters into book... $(TITLE)."
-	@cat $$(ls --color=never -v [0-9]*T_*.md) > ./pdf/Modeliranje_in_tehniska_dokumentacija.md && echo ".. Done."
+	@cat $$(ls --color=never -v [0-9]*.md) > ../build/Modeliranje_in_tehniska_dokumentacija.md && echo ".. Done."
 	@file_name=$$(echo $(TITLE) | sed 's/\ /_/g'); \
-	pandoc ./pdf/Modeliranje_in_tehniska_dokumentacija.md --to latex -o ./pdf/Modeliranje_in_tehniska_dokumentacija.pdf \
+	pandoc ../build/Modeliranje_in_tehniska_dokumentacija.md --to latex -o ../build/Modeliranje_in_tehniska_dokumentacija.pdf \
 		--from markdown \
 		--template skripta.tex \
 		-V lang=sl \
@@ -50,10 +50,10 @@ book:
 		--toc \
 		--toc-depth=2 \
 		-M titlepage;
-	@rm ./pdf/Modeliranje_in_tehniska_dokumentacija.md
+	@rm ../build/Modeliranje_in_tehniska_dokumentacija.md
 
 clean:
-	@mv -f *.pdf ./pdf/
+	@mv -f *.pdf ../build/
 
 file := $(shell find ./ -type f -name "[0-9]*T_*.md"|sed 's/\.\///g'|sort)
 all: pdfs book clean
