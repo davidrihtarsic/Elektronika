@@ -274,9 +274,7 @@ Kadar je mogoče, pišemo v povezanih odstavkih.
 # Dolžina odstavkov
 
 Odstavki naj praviloma obravnavajo eno idejo.
-
 Če odstavek odgovarja na več vprašanj, ga razdelimo.
-
 Če je krajši od dveh stavkov, preverimo, ali ga lahko združimo.
 
 ---
@@ -284,23 +282,20 @@ Odstavki naj praviloma obravnavajo eno idejo.
 # Slike
 
 Vsaka slika mora imeti namen.
-
 Pred vključitvijo slike se vprašamo:
-
 Ali razumevanje brez slike bistveno trpi?
-
 Če ne, slike ne vključimo.
 
-Slike hranimo v mapi `chapters/figures/`. Imena datotek so opisna, zapisana z malimi črkami in podčrtaji, na primer `zaporedna_vezava_uporov.svg`.
+Slike hranimo v mapi `chapters/figures/`. Imena datotek so opisna, zapisana z malimi črkami in podčrtaji, na primer `zaporedna_vezava_uporov.png`.
 
 Slike vključujemo s sintakso Pandoc Markdown. Vsaka slika mora imeti opisni napis (*caption*) in oznako oblike `#fig:...`; po potrebi določimo tudi njeno širino. V besedilu se na sliko vedno sklicujemo z navzkrižnim sklicem `@fig:...`. Ne uporabljamo zapisov »na spodnji sliki« ali »na naslednji sliki«, saj se lahko položaj slike med pripravo različnih izhodnih oblik spremeni.
 
 Primer pravilnega zapisa:
 
 ```markdown
-Kot prikazuje @fig:zaporedna-vezava, sta upora vezana zaporedno.
+Kot prikazuje @fig:zaporedna-vezava-uporov, sta upora vezana zaporedno.
 
-![Zaporedna vezava dveh uporov.](figures/zaporedna_vezava_uporov.svg){#fig:zaporedna-vezava width=70%}
+![Zaporedna vezava dveh uporov.](figures/zaporedna_vezava_uporov.svg){#fig:zaporedna-vezava-uporov width=70%}
 ```
 
 ---
@@ -323,16 +318,14 @@ Sheme naj bodo:
 
 Grafe pripravi avtor. Codex grafov ne ustvarja, temveč pripravi samo njihovo pravilno vključitev v Markdown. Grafi uporabljajo napise, oznake `#fig:...` in navzkrižne sklice enako kot druge slike.
 
-Osi grafov morajo vsebovati oznake prikazanih veličin in pripadajoče enote SI. Za grafe imajo prednost vektorski zapisi SVG oziroma PDF.
+Osi grafov morajo vsebovati oznake prikazanih veličin in pripadajoče enote SI. Za grafe imajo prednost vektorski zapisi PNG oziroma PDF.
 
 ---
 
 # Simulacije
 
 Za simulacije uporabljamo SimulIDE.
-
 Simulacija ni nadomestilo za eksperiment.
-
 Je pomoč pri razumevanju modela.
 
 Simulacije pripravi avtor v SimulIDE. Codex simulacij ne izdeluje, temveč pripravi le ustrezno vključitev rezultata simulacije v Markdown. Posnetke in druge prikaze simulacij obravnavamo kot slike, zato morajo imeti napis, oznako `#fig:...` in navzkrižni sklic.
@@ -342,7 +335,6 @@ Simulacije pripravi avtor v SimulIDE. Codex simulacij ne izdeluje, temveč pripr
 # Fotografije
 
 Kadar je mogoče uporabljamo lastne fotografije.
-
 Prednost imajo fotografije:
 
 - laboratorijskih postavitev,
