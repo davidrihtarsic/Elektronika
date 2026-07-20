@@ -414,15 +414,24 @@
         "filename": "Elektronika.kicad_sch",
         "name": "Root",
         "uuid": "7c218f2e-ade1-4569-b307-e4d197ceae27"
+      },
+      {
+        "filename": "električnipotencialnapetost.kicad_sch",
+        "name": "ElektričniPotencialNapetost",
+        "uuid": "43a6f667-0733-4d50-8278-23f353bdfffa"
       }
     ],
-    "used_designators": "SW1,R1-4,BT1-2",
+    "used_designators": "SW1-2,R1-6,BT1-2",
     "variants": []
   },
   "sheets": [
     [
       "7c218f2e-ade1-4569-b307-e4d197ceae27",
       "Root"
+    ],
+    [
+      "43a6f667-0733-4d50-8278-23f353bdfffa",
+      "ElektričniPotencialNapetost"
     ]
   ],
   "text_variables": {},
