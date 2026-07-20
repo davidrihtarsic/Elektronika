@@ -419,9 +419,14 @@
         "filename": "električnipotencialnapetost.kicad_sch",
         "name": "ElektričniPotencialNapetost",
         "uuid": "43a6f667-0733-4d50-8278-23f353bdfffa"
+      },
+      {
+        "filename": "elektricni_tok.kicad_sch",
+        "name": "Elektricni_Tok",
+        "uuid": "258d764b-f4fc-4a4f-8a8e-fcaae60fa3a0"
       }
     ],
-    "used_designators": "SW1-2,R1-6,BT1-2",
+    "used_designators": "S1,L2,LA1-2,SW1-2,SW4,R1-6,BT1-4",
     "variants": []
   },
   "sheets": [
@@ -432,6 +437,10 @@
     [
       "43a6f667-0733-4d50-8278-23f353bdfffa",
       "ElektričniPotencialNapetost"
+    ],
+    [
+      "258d764b-f4fc-4a4f-8a8e-fcaae60fa3a0",
+      "Elektricni_Tok"
     ]
   ],
   "text_variables": {},

@@ -1583,6 +1583,12 @@
 			(uuid "037ed94e-a95c-4481-aaf5-39b7fd061cef")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "R5")
@@ -1748,6 +1754,12 @@
 			(uuid "d3c5564d-b65e-4ee0-81ff-b23fc59f2756")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "#PWR02")
@@ -1831,6 +1843,12 @@
 			(uuid "66392918-c036-4ccc-8975-fbec087dfc27")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "V2")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "V2")
@@ -1947,6 +1965,12 @@
 			(uuid "1a29babd-33c6-4f66-a610-963ed8cb5925")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "BT2")
@@ -2117,6 +2141,12 @@
 			(uuid "0400fac1-47a7-44b4-8d7b-c6d329d4a67d")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "V3")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "V3")
@@ -2203,6 +2233,12 @@
 			(uuid "f06bb250-70b1-47c8-8cd2-cb75159c947e")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "SW3")
@@ -2493,6 +2529,12 @@
 			(uuid "395fb7c1-9edd-4342-8523-8117d68c4352")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "R6")
@@ -2574,6 +2616,12 @@
 			(uuid "b5f226dc-0df1-40c0-bbc4-795fae35a872")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "R4")
@@ -2652,6 +2700,12 @@
 			(uuid "d0985549-b904-443a-b847-e93e947fa62c")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "#PWR01")
@@ -2735,6 +2789,12 @@
 			(uuid "bda0d221-6527-4f5f-9882-22da529eb280")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "V")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "V")
@@ -2809,10 +2869,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "ed7470ab-4440-4f37-a775-bbf5de023ef3")
+			(uuid "ed7470ab-4440-4f37-a775-bbf5de023ef4")
 		)
 		(pin "4"
-			(uuid "7d29fcdc-db95-4631-b388-3d16fd31bb04")
+			(uuid "7d29fcdc-db95-4631-b388-3d16fd31bb05")
 		)
 		(pin "1"
 			(uuid "38fa7ecd-ccd7-426e-ad7a-d5052cc946e1")
@@ -2910,6 +2970,12 @@
 			(uuid "312e2d35-dc4b-4511-92aa-75080ec31849")
 		)
 		(instances
+			(project "Elektronika"
+				(path "/43a6f667-0733-4d50-8278-23f353bdfffa"
+					(reference "V1")
+					(unit 1)
+				)
+			)
 			(project "električnipotencialnapetost"
 				(path "/4cd1954e-5c90-4ed3-aa6c-96020c4ae88a"
 					(reference "V1")
@@ -2923,5 +2989,4 @@
 			(page "2")
 		)
 	)
-	(embedded_fonts no)
 )
