@@ -291,17 +291,39 @@ Ali razumevanje brez slike bistveno trpi?
 
 Če ne, slike ne vključimo.
 
+Slike hranimo v mapi `chapters/figures/`. Imena datotek so opisna, zapisana z malimi črkami in podčrtaji, na primer `zaporedna_vezava_uporov.svg`.
+
+Slike vključujemo s sintakso Pandoc Markdown. Vsaka slika mora imeti opisni napis (*caption*) in oznako oblike `#fig:...`; po potrebi določimo tudi njeno širino. V besedilu se na sliko vedno sklicujemo z navzkrižnim sklicem `@fig:...`. Ne uporabljamo zapisov »na spodnji sliki« ali »na naslednji sliki«, saj se lahko položaj slike med pripravo različnih izhodnih oblik spremeni.
+
+Primer pravilnega zapisa:
+
+```markdown
+Kot prikazuje @fig:zaporedna-vezava, sta upora vezana zaporedno.
+
+![Zaporedna vezava dveh uporov.](figures/zaporedna_vezava_uporov.svg){#fig:zaporedna-vezava width=70%}
+```
+
 ---
 
 # Sheme
 
 Električne sheme pripravljamo v KiCadu.
 
+Vse električne sheme pripravi avtor. Codex električnih shem ne izdeluje, temveč pripravi le njihovo pravilno vključitev v Markdown, vključno z napisom, oznako in navzkrižnim sklicem. Za sheme uporabljamo enake oznake `#fig:...` kot za druge slike.
+
 Sheme naj bodo:
 
 - pregledne,
 - standardizirane,
 - brez nepotrebnih elementov.
+
+---
+
+# Grafi
+
+Grafe pripravi avtor. Codex grafov ne ustvarja, temveč pripravi samo njihovo pravilno vključitev v Markdown. Grafi uporabljajo napise, oznake `#fig:...` in navzkrižne sklice enako kot druge slike.
+
+Osi grafov morajo vsebovati oznake prikazanih veličin in pripadajoče enote SI. Za grafe imajo prednost vektorski zapisi SVG oziroma PDF.
 
 ---
 
@@ -312,6 +334,8 @@ Za simulacije uporabljamo SimulIDE.
 Simulacija ni nadomestilo za eksperiment.
 
 Je pomoč pri razumevanju modela.
+
+Simulacije pripravi avtor v SimulIDE. Codex simulacij ne izdeluje, temveč pripravi le ustrezno vključitev rezultata simulacije v Markdown. Posnetke in druge prikaze simulacij obravnavamo kot slike, zato morajo imeti napis, oznako `#fig:...` in navzkrižni sklic.
 
 ---
 
@@ -325,6 +349,29 @@ Prednost imajo fotografije:
 - demonstracij,
 - dejanskih komponent,
 - meritev.
+
+Fotografije pripravi avtor. Codex fotografij ne generira, temveč pripravi samo njihovo ustrezno vključitev v Markdown. Vsaka fotografija mora imeti opisni napis in oznako `#fig:...`; v besedilu se nanjo sklicujemo z navzkrižnim sklicem.
+
+---
+
+# Tabele
+
+Tabele uporabljamo le, kadar izboljšajo preglednost podatkov ali primerjave. Tabela ni nadomestilo za razlago, zato morata biti njen namen in pomen razvidna tudi iz spremljajočega besedila.
+
+Vsaka tabela mora imeti napis in oznako oblike `#tbl:...`. V besedilu uporabljamo navzkrižne sklice `@tbl:...`; tabel ne številčimo ročno.
+
+Primer Pandoc tabele:
+
+```markdown
+Izmerjene vrednosti so zbrane v @tbl:meritve-upora.
+
+| Napetost $U$ | Tok $I$ |
+|-------------:|--------:|
+| 3 V          | 0,03 A  |
+| 6 V          | 0,06 A  |
+
+Table: Izmerjena napetost in tok. {#tbl:meritve-upora}
+```
 
 ---
 
@@ -345,6 +392,8 @@ Dosledno uporabljamo enote SI.
 
 Oznake veličin so zapisane po mednarodnih standardih.
 
+Med številčno vrednostjo in enoto vedno uporabimo nedeljivi presledek, na primer `9 V`. V matematičnem zapisu uporabimo ustrezen razmik, na primer `$U = 9\,\mathrm{V}$`. Za veličine in enote uporabljamo standardne mednarodne oznake.
+
 ---
 
 # Enačbe
@@ -352,6 +401,69 @@ Oznake veličin so zapisane po mednarodnih standardih.
 Vsaka enačba mora biti v besedilu pojasnjena.
 
 Bralec nikoli ne sme ostati z občutkom, da se je enačba pojavila brez razloga.
+
+Vsaka veličina, uporabljena v enačbi, mora biti v besedilu razložena. Enačbi, na katero se sklicujemo, dodamo oznako oblike `#eq:...`, sklic pa zapišemo kot `@eq:...`. Enačb ne številčimo ročno.
+
+Primer:
+
+```markdown
+Povezava med napetostjo, tokom in upornostjo je zapisana v @eq:ohmov-zakon.
+
+$$
+U = R I
+$$ {#eq:ohmov-zakon}
+```
+
+---
+
+# Reference
+
+Za navajanje literature uporabljamo izključno sistem Pandoc Citation. Codex pripravi ustrezen sklic v Markdown in dopolni datoteko `chapters/references.bib` z bibliografskim zapisom. Literature v besedilu ali na koncu poglavja nikoli ne zapisujemo ročno; seznam literature izdela Pandoc.
+
+Primer sklica v oklepaju:
+
+```markdown
+[@Novak2024]
+```
+
+Primer vključitve avtorja v poved:
+
+```markdown
+Kot ugotavlja @Novak2024 ...
+```
+
+---
+
+# Navzkrižni sklici
+
+Poglavja, slike, tabele in enačbe označimo z enoličnimi oznakami ter se nanje sklicujemo s Pandocovimi navzkrižnimi sklici:
+
+- poglavja: oznaka `#sec:...` in sklic `@sec:...`,
+- slike: oznaka `#fig:...` in sklic `@fig:...`,
+- tabele: oznaka `#tbl:...` in sklic `@tbl:...`,
+- enačbe: oznaka `#eq:...` in sklic `@eq:...`.
+
+Številk poglavij, slik, tabel ali enačb nikoli ne zapisujemo ročno, saj jih določi Pandoc pri pripravi izhodnega dokumenta.
+
+---
+
+# Opombe pod črto
+
+Opombe pod črto uporabljamo zelo redko in le za kratka dodatna pojasnila, ki bi prekinila glavni tok besedila. Niso namenjene citiranju literature; za vire vedno uporabljamo sistem Pandoc Citation.
+
+---
+
+# Izvorna koda
+
+Programsko kodo zapisujemo v označenih Markdown blokih, pri katerih vedno navedemo programski jezik. Kode ne vključujemo kot sliko.
+
+Primer:
+
+````markdown
+```cpp
+int vrednost = analogRead(A0);
+```
+````
 
 ---
 
@@ -391,3 +503,19 @@ Pri pregledu poglavja preverimo, ali so smiselno vključeni:
 * primer uporabe,
 * omejitve modela,
 * odgovor na uvodno vprašanje.
+
+---
+
+# Odgovornosti Codexa pri pripravi gradiva
+
+Codex ne pripravlja fotografij, grafov, električnih shem, simulacij, ilustracij ali diagramov. To vizualno gradivo pripravi avtor.
+
+Codex pripravi:
+
+- pravilno vključitev gradiva v Markdown,
+- opisni napis,
+- ustrezno oznako,
+- navzkrižne sklice,
+- strukturo poglavij.
+
+Izjema so reference. Pri referencah Codex pripravi sklice v Markdown, dopolni datoteko `chapters/references.bib` in poskrbi za pravilno citiranje s sistemom Pandoc Citation.
