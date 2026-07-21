@@ -10,7 +10,7 @@ pdfs:
 		sed -i "1,2d" $$ff; \
 		done;
 
-TITLE="Elektronika za študente Pedagoške fakultete"
+TITLE="ELEKTRONIKA"
 
 # trenutno je nastavljeno, da iz direktorija vzamemo le dokumente, ki so namenjeni:
 # - teoriji: [0-9]*T_*.md
@@ -25,7 +25,7 @@ book:
 		--template skripta.tex \
 		-V lang=sl \
 		-M title=$(TITLE) \
-		-M subtitle="Modularni učni priročnik za bodoče učitelje tehnike in tehnologije. Začenja se z razumevanjem 3D modeliranja kot temelja tehniške predstavitve. Sledi sistematičen prehod v tehniško risanje in uporabo standardov. Združuje teorijo, prakso in pedagoški kontekst." \
+		-M subtitle="za študente Pedagoške fakultete, ki želijo elektroniko razumeti, ne le izračunati. Univerzitetna skripta za bodoče učitelje tehnike, ki skozi opazovanje, eksperimente, matematične modele in inženirsko razmišljanje razvija poglobljeno razumevanje električnih pojavov in elektronskih vezij." \
 		-M author:"dr. David Rihtaršič" \
 		-M date:"$(date '+%Y-%B')" \
 		--syntax-highlighting=idiomatic \
