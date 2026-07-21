@@ -424,9 +424,14 @@
         "filename": "elektricni_tok.kicad_sch",
         "name": "Elektricni_Tok",
         "uuid": "258d764b-f4fc-4a4f-8a8e-fcaae60fa3a0"
+      },
+      {
+        "filename": "potencial-zarnica.kicad_sch",
+        "name": "Potencial-zarnica",
+        "uuid": "2cf6d36a-92eb-4c52-9be0-279785e61670"
       }
     ],
-    "used_designators": "S1,L2,LA1-2,SW1-2,SW4,R1-6,BT1-4",
+    "used_designators": "S1-3,L2-4,#PWR3-4,LA1-2,SW1-2,SW4,R1-6,BT1-4",
     "variants": []
   },
   "sheets": [
@@ -441,6 +446,10 @@
     [
       "258d764b-f4fc-4a4f-8a8e-fcaae60fa3a0",
       "Elektricni_Tok"
+    ],
+    [
+      "2cf6d36a-92eb-4c52-9be0-279785e61670",
+      "Potencial-zarnica"
     ]
   ],
   "text_variables": {},
