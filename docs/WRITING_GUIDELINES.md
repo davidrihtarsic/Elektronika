@@ -284,7 +284,21 @@ Pred vključitvijo slike se vprašamo:
 Ali razumevanje brez slike bistveno trpi?
 Če ne, slike ne vključimo.
 
-Slike hranimo v mapi `chapters/figures/`. Imena datotek so opisna, zapisana z malimi črkami in podčrtaji, na primer `zaporedna_vezava_uporov.png`.
+Slike hranimo v mapi `chapters/figures/`.
+
+Datoteke slik praviloma uporabljajo zapis PNG in se poimenujejo po obliki
+`PP_SS_opisno_ime.png`, kjer `PP` predstavlja dvomestno številko glavnega
+poglavja, `SS` pa dvomestno zaporedno številko slike glede na njeno prvo
+pojavnost v tem poglavju. Zaporedje se v vsakem glavnem poglavju začne z
+`01`. Opisni del imena je zapisan z malimi črkami in podčrtaji.
+
+Kadar je zaradi kakovosti ali načina izdelave smiselno uporabiti SVG ali PDF,
+se ohrani dejanska končnica datoteke, pravilo za številčenje in opisni del
+imena pa ostane enako.
+
+Številka v imenu datoteke je namenjena urejanju datotek in ne nadomešča
+Pandocovega številčenja slik. Oznake `#fig:...` ostanejo opisne in praviloma
+ne vsebujejo številk.
 
 Slike vključujemo s sintakso Pandoc Markdown. Vsaka slika mora imeti opisni napis (*caption*) in oznako oblike `#fig:...`; po potrebi določimo tudi njeno širino. V besedilu se na sliko vedno sklicujemo z navzkrižnim sklicem `@fig:...`. Ne uporabljamo zapisov »na spodnji sliki« ali »na naslednji sliki«, saj se lahko položaj slike med pripravo različnih izhodnih oblik spremeni.
 
@@ -293,7 +307,7 @@ Primer pravilnega zapisa:
 ```markdown
 Kot prikazuje @fig:zaporedna-vezava-uporov, sta upora vezana zaporedno.
 
-![Zaporedna vezava dveh uporov.](figures/zaporedna_vezava_uporov.svg){#fig:zaporedna-vezava-uporov width=70%}
+![Zaporedna vezava dveh uporov.](figures/05_03_zaporedna_vezava_uporov.svg){#fig:zaporedna-vezava-uporov width=70%}
 ```
 
 ---

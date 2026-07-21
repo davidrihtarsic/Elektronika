@@ -146,6 +146,12 @@ Ta dokument predstavlja referenčno zbirko odločitev, ki zagotavlja dolgoročno
 
 ---
 
+## 2026-07-21 — Poimenovanje slik po poglavju in prvi pojavnosti
+
+Datoteke slik se poimenujejo v obliki `PP_SS_opisno_ime.ext`, kjer `PP` označuje glavno poglavje, `SS` pa neprekinjeno zaporedje prve pojavnosti slike v tem poglavju. Zaporedje se v vsakem glavnem poglavju začne z `01`; opis je zapisan z malimi črkami in podčrtaji. Praviloma uporabljamo PNG, pri smiselnih vektorskih ali dokumentnih virih pa ohranimo SVG oziroma PDF. Pandocove opisne oznake `#fig:...` ostanejo neodvisne od številke v imenu datoteke.
+
+---
+
 ## 2026-07-19 — Zbirka napačnih predstav in kognitivnih konfliktov
 
 V `notes/misconceptions.md` se vodi interna avtorska zbirka pogostih napačnih predstav s področja elektronike. Zbirka se uporablja pri načrtovanju vprašanj, demonstracij, meritev in razlag.
