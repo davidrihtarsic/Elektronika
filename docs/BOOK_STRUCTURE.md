@@ -26,7 +26,7 @@ Poglavja sledijo fizikalnim pojavom in razvoju razumevanja elektronskih sistemov
 
    Prostor za kasnejše dopolnjevanje.
 
-3. Električna upornost in Ohmov zakon
+3. Temeljne zakonitosti enosmernih električnih vezij
 
    Prostor za kasnejše dopolnjevanje.
 

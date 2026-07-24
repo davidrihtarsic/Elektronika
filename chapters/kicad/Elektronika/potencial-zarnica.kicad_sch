@@ -1687,7 +1687,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "38105a52-ff42-4611-a16c-b001649e1d2a")
+			(uuid "38105a52-ff42-4611-a16c-b001649e1d2b")
 		)
 		(pin "1"
 			(uuid "5fd6828a-bbc2-4d58-bbc3-dedd949dd6fe")
@@ -1696,7 +1696,7 @@
 			(uuid "8e080fdb-2b97-4e43-949d-121015bf52c8")
 		)
 		(pin "3"
-			(uuid "b9e1d784-13aa-4531-a6e3-959886550e0f")
+			(uuid "b9e1d784-13aa-4531-a6e3-959886550e10")
 		)
 		(instances
 			(project "Elektronika"

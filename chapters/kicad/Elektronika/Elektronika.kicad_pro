@@ -429,9 +429,14 @@
         "filename": "potencial-zarnica.kicad_sch",
         "name": "Potencial-zarnica",
         "uuid": "2cf6d36a-92eb-4c52-9be0-279785e61670"
+      },
+      {
+        "filename": "električnopolje-tok.kicad_sch",
+        "name": "ElektričnoPolje-Tok",
+        "uuid": "deb30936-a2ed-4208-af9c-ad0dfb762afb"
       }
     ],
-    "used_designators": "S1-3,L2-4,#PWR3-4,LA1-2,SW1-2,SW4,R1-6,BT1-4",
+    "used_designators": "S1-5,L2-4,#PWR3-6,LA1-2,SW1-2,SW4,R1-6,BT1-4",
     "variants": []
   },
   "sheets": [
@@ -450,6 +455,10 @@
     [
       "2cf6d36a-92eb-4c52-9be0-279785e61670",
       "Potencial-zarnica"
+    ],
+    [
+      "deb30936-a2ed-4208-af9c-ad0dfb762afb",
+      "ElektričnoPolje-Tok"
     ]
   ],
   "text_variables": {},
